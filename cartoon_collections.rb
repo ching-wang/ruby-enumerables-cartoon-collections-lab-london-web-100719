@@ -1,5 +1,5 @@
 def roll_call_dwarves(names_array)
-  names_array.collect {|a| puts a}
+  names_array.collect {|v, i| puts "#{i + 1} #{v}"}
 end
 
 def summon_captain_planet()
