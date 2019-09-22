@@ -12,4 +12,5 @@ end
 
 def find_the_cheese(cheese_box)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
