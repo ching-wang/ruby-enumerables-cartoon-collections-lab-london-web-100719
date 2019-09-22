@@ -10,8 +10,8 @@ def long_planeteer_calls(short_words)
   short_words.any? {|word| word.length > 4}
 end
 
+cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(cheese_box)
-  cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_box.find {|type| type == "cheddar" || type == "gouda" || "camembert"}
   
 end
