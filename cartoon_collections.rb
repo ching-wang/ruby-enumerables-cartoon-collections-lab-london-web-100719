@@ -2,8 +2,8 @@ def roll_call_dwarves(names_array)
   names_array.each_with_index {|v, i| puts "#{i + 1} #{v}"}
 end
 
-def summon_captain_planet(planeteer_call)
-  planeteer_call.map {|a| puts "#{a} + !"}
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map {|a| puts "#{a} + !"}
 end
 
 def long_planeteer_calls# code an argument here
