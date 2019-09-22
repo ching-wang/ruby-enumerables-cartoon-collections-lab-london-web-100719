@@ -10,15 +10,9 @@ def long_planeteer_calls(short_words)
   short_words.any? {|word| word.length > 4}
 end
 
-cheese_types = (array)
-def find_the_cheese(cheese_box)
-  cheese_box.find {|type| type == "cheddar" && type == "gouda" && "camembert"}
-end
 
-def find_the_cheese(array)
+def find_the_cheese(cheese_box)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    array.find do |type|
-    cheese_types.include?(type)
-  end 
+  cheese_box.find {|type| cheese_types.include?(type)}
 end
 
